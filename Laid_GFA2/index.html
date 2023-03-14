@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FA2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>calcU</h1>
+    <h5>Hello! This page is a simple calculator.</h5>
+    <p>
+      Input the 2 numbers you'd like to use inside each textbox. (Hover over the
+      buttons to see what they do.)
+    </p>
+
+    <div>
+      <input type="text" id="Num1" placeholder="Num1" />
+      <input type="text" id="Num2" placeholder="Num2" />
+    </div>
+
+    <br />
+
+    <div class="tooltip">
+      <button id="add">+</button>
+      <span class="tooltiptext">Addition</span>
+    </div>
+    <div class="tooltip">
+      <button id="subtract">-</button>
+      <span class="tooltiptext">Subtraction</span>
+    </div>
+    <div class="tooltip">
+      <button id="multiply">*</button>
+      <span class="tooltiptext">Multiplication</span>
+    </div>
+    <div class="tooltip">
+      <button id="divide">/</button>
+      <span class="tooltiptext">Division</span>
+    </div>
+    <div class="tooltip">
+      <button id="modulus">%</button>
+      <span class="tooltiptext">Modulus</span>
+    </div>
+
+    <br />
+
+    <p id="result">Results will be displayed here.</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
